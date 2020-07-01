@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    color:dimgray;
+    font-size: 14px;
+}
+
+.pink-highlight{
+    color: firebrick;
+    font-display: bold;
+    font-size: 35px;
+
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+}
+
+.half-width-1{
+    width: 40%;
+    float: left;
+    padding-left:10%;
+    margin-left: 2%;
+    
+}
+
+
+
+.half-width img{
+    padding-top: 10%;
+    width: 85%;
+}
+
+
+
+
+.top-banner{
+    
+    background-image: url("images/header-bg.png");
+    background-size: 100% 100%;
+
+}
+
+.top-banner-1{
+    
+    background-image: url("images/biography-bg.png");
+    background-size: 100% 100%;
+}
+
+.top-banner-2{
+    height: 300px;
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100% 100%;
+}
+
+.top-banner-3{
+
+    height: 500px;
+    background-image: url("images/footer-bg.png");
+    background-size: 100% 100%;
+    
+}
+
+.third-portion{
+  margin: 90px;
+  height: 250px;
+  padding: 10px;
+ 
+}
+
+.third-portion img{
+    padding-top:5%;
+   
+
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+section{
+    height: 500px;
+    padding-bottom: 100px;
+    
+   /* border: 15px solid green;*/
+}
+
+#l-position{
+   
+    padding-top: 35%;
+    font-size: 30px;
+    color: black ;
+}
+#l1-position{
+    font-size:35px;
+    color: black;
+}
+
+#l2-position{
+    font-size:40px;
+    color: black;
+    padding-top:5%;
+}
+
+#im-position{
+    padding-left:10%;
+    width: 38%;
+}
+
+#f2{
+    font-size: 12px;
+}
+
+#f1{
+    font-size: 15px;
+    color: black;
+    
+}
+
+#f3{
+    font-size:12px;
+    color: white;
+}
+#f4{
+    font-size: 20px;
+    color: white;
+}
+
+
+.link-button{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: rgb(212, 54, 115) ;
+    padding: 12px 38px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.link1-button{
+    margin-top:3% ;
+    margin-left:28%;
+    width: 40%;
+    float:left;
+    
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(233, 85, 134), rgb(216, 45, 96)
+    );
+    padding: 12px 38px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+
+
+
